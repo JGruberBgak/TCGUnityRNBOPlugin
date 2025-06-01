@@ -1,0 +1,10 @@
+^C:\USERS\JACK\DOCUMENTS\TCGXCOREBLAZERGAMEJAM\ASSETS\ASSETS\AUDIO\UNITYRNBOPLUGIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin -BC:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build --check-stamp-file C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

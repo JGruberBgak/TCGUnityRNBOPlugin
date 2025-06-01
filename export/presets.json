@@ -1,0 +1,73 @@
+[
+  {
+    "name": "GameJamMusic",
+    "preset": {
+      "OffOn": {
+        "value": 0
+      },
+      "__sps": {
+        "ChInst": {
+          "__sps": {
+            "Osc": {},
+            "Osc[1]": {},
+            "Osc[2]": {},
+            "Osc[3]": {},
+            "Osc[4]": {}
+          },
+          "sSize": {
+            "value": 256
+          },
+          "tablePos": {
+            "value": 1
+          }
+        },
+        "Chords": {
+          "__sps": {
+            "ChordColl": {
+              "__sps": {
+                "I_chordVariants": {}
+              }
+            },
+            "NextChord": {}
+          }
+        },
+        "Verb": {
+          "DecayLFO": {
+            "value": 0
+          },
+          "SizeRandom": {
+            "value": 0
+          },
+          "__sps": {
+            "Blur~": {},
+            "CombL~": {},
+            "CombR~": {},
+            "Damp~": {},
+            "Mix~": {},
+            "RoomA~": {},
+            "RoomB~": {},
+            "Shuffle~": {}
+          },
+          "damp": {
+            "value": 50
+          },
+          "decay": {
+            "value": 50
+          },
+          "diff": {
+            "value": 50
+          },
+          "jitter": {
+            "value": 50
+          },
+          "mix": {
+            "value": 50
+          },
+          "size": {
+            "value": 50
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+^C:\USERS\JACK\DOCUMENTS\TCGUNITYRNBOPLUGIN\BUILD\CMAKEFILES\681E72F8C51DA027408B6D0B7A93A96A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jack/Documents/TCGUnityRNBOPlugin -BC:/Users/Jack/Documents/TCGUnityRNBOPlugin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/RNBO_UNITY_NATIVE_AUDIO_PLUGIN.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

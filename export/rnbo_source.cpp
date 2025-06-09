@@ -75,17 +75,17 @@ namespace RNBO {
 class rnbomatic : public PatcherInterfaceImpl {
 public:
 
-class RNBOSubpatcher_134 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_173 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_134()
+    RNBOSubpatcher_173()
     {
     }
     
-    ~RNBOSubpatcher_134()
+    ~RNBOSubpatcher_173()
     {
     }
     
@@ -1274,29 +1274,29 @@ class RNBOSubpatcher_134 : public PatcherInterfaceImpl {
     
 };
 
-class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_174 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_102 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_141 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_135;
+            friend class RNBOSubpatcher_174;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_102()
+            RNBOSubpatcher_141()
             {
             }
             
-            ~RNBOSubpatcher_102()
+            ~RNBOSubpatcher_141()
             {
             }
             
-            virtual RNBOSubpatcher_135* getPatcher() const {
-                return static_cast<RNBOSubpatcher_135 *>(_parentPatcher);
+            virtual RNBOSubpatcher_174* getPatcher() const {
+                return static_cast<RNBOSubpatcher_174 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -2311,23 +2311,23 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_103 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_142 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_135;
+            friend class RNBOSubpatcher_174;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_103()
+            RNBOSubpatcher_142()
             {
             }
             
-            ~RNBOSubpatcher_103()
+            ~RNBOSubpatcher_142()
             {
             }
             
-            virtual RNBOSubpatcher_135* getPatcher() const {
-                return static_cast<RNBOSubpatcher_135 *>(_parentPatcher);
+            virtual RNBOSubpatcher_174* getPatcher() const {
+                return static_cast<RNBOSubpatcher_174 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -3342,23 +3342,23 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_104 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_143 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_135;
+            friend class RNBOSubpatcher_174;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_104()
+            RNBOSubpatcher_143()
             {
             }
             
-            ~RNBOSubpatcher_104()
+            ~RNBOSubpatcher_143()
             {
             }
             
-            virtual RNBOSubpatcher_135* getPatcher() const {
-                return static_cast<RNBOSubpatcher_135 *>(_parentPatcher);
+            virtual RNBOSubpatcher_174* getPatcher() const {
+                return static_cast<RNBOSubpatcher_174 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -4373,23 +4373,23 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_105 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_144 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_135;
+            friend class RNBOSubpatcher_174;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_105()
+            RNBOSubpatcher_144()
             {
             }
             
-            ~RNBOSubpatcher_105()
+            ~RNBOSubpatcher_144()
             {
             }
             
-            virtual RNBOSubpatcher_135* getPatcher() const {
-                return static_cast<RNBOSubpatcher_135 *>(_parentPatcher);
+            virtual RNBOSubpatcher_174* getPatcher() const {
+                return static_cast<RNBOSubpatcher_174 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -5404,23 +5404,23 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_106 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_145 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_135;
+            friend class RNBOSubpatcher_174;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_106()
+            RNBOSubpatcher_145()
             {
             }
             
-            ~RNBOSubpatcher_106()
+            ~RNBOSubpatcher_145()
             {
             }
             
-            virtual RNBOSubpatcher_135* getPatcher() const {
-                return static_cast<RNBOSubpatcher_135 *>(_parentPatcher);
+            virtual RNBOSubpatcher_174* getPatcher() const {
+                return static_cast<RNBOSubpatcher_174 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -6435,11 +6435,11 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_135()
+    RNBOSubpatcher_174()
     {
     }
     
-    ~RNBOSubpatcher_135()
+    ~RNBOSubpatcher_174()
     {
         delete this->p_01;
         delete this->p_02;
@@ -6660,23 +6660,23 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_01 = new RNBOSubpatcher_102();
+        this->p_01 = new RNBOSubpatcher_141();
         this->p_01->setEngineAndPatcher(this->getEngine(), this);
         this->p_01->initialize();
         this->p_01->setParameterOffset(this->getParameterOffset(this->p_01));
-        this->p_02 = new RNBOSubpatcher_103();
+        this->p_02 = new RNBOSubpatcher_142();
         this->p_02->setEngineAndPatcher(this->getEngine(), this);
         this->p_02->initialize();
         this->p_02->setParameterOffset(this->getParameterOffset(this->p_02));
-        this->p_03 = new RNBOSubpatcher_104();
+        this->p_03 = new RNBOSubpatcher_143();
         this->p_03->setEngineAndPatcher(this->getEngine(), this);
         this->p_03->initialize();
         this->p_03->setParameterOffset(this->getParameterOffset(this->p_03));
-        this->p_04 = new RNBOSubpatcher_105();
+        this->p_04 = new RNBOSubpatcher_144();
         this->p_04->setEngineAndPatcher(this->getEngine(), this);
         this->p_04->initialize();
         this->p_04->setParameterOffset(this->getParameterOffset(this->p_04));
-        this->p_05 = new RNBOSubpatcher_106();
+        this->p_05 = new RNBOSubpatcher_145();
         this->p_05->setEngineAndPatcher(this->getEngine(), this);
         this->p_05->initialize();
         this->p_05->setParameterOffset(this->getParameterOffset(this->p_05));
@@ -9173,7 +9173,7 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
     }
     
     void message_09_init() {
-        this->message_09_set_set({0.25, 100, 0, 2000});
+        this->message_09_set_set({0.25, 100, 0, 3000});
     }
     
     void data_01_init() {
@@ -10023,44 +10023,44 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_102* p_01;
-        RNBOSubpatcher_103* p_02;
-        RNBOSubpatcher_104* p_03;
-        RNBOSubpatcher_105* p_04;
-        RNBOSubpatcher_106* p_05;
+        RNBOSubpatcher_141* p_01;
+        RNBOSubpatcher_142* p_02;
+        RNBOSubpatcher_143* p_03;
+        RNBOSubpatcher_144* p_04;
+        RNBOSubpatcher_145* p_05;
     
 };
 
-class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_175 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_108 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_147 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_136;
+            friend class RNBOSubpatcher_175;
             friend class rnbomatic;
             
             public:
             
-            class RNBOSubpatcher_107 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_146 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_108;
+                        friend class RNBOSubpatcher_147;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_107()
+                        RNBOSubpatcher_146()
                         {
                         }
                         
-                        ~RNBOSubpatcher_107()
+                        ~RNBOSubpatcher_146()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_108* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_108 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_147* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_147 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -11026,7 +11026,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
                         }
                         
                         void message_12_init() {
-                            this->message_12_set_set({48, 55, 64, 59});
+                            this->message_12_set_set({48, 55, 64, 69});
                         }
                         
                         void numberobj_06_init() {
@@ -11160,17 +11160,17 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
                         
             };
             
-            RNBOSubpatcher_108()
+            RNBOSubpatcher_147()
             {
             }
             
-            ~RNBOSubpatcher_108()
+            ~RNBOSubpatcher_147()
             {
                 delete this->p_06;
             }
             
-            virtual RNBOSubpatcher_136* getPatcher() const {
-                return static_cast<RNBOSubpatcher_136 *>(_parentPatcher);
+            virtual RNBOSubpatcher_175* getPatcher() const {
+                return static_cast<RNBOSubpatcher_175 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -11278,7 +11278,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             void getState(PatcherStateInterface& ) {}
             
             void setState() {
-                this->p_06 = new RNBOSubpatcher_107();
+                this->p_06 = new RNBOSubpatcher_146();
                 this->p_06->setEngineAndPatcher(this->getEngine(), this);
                 this->p_06->initialize();
                 this->p_06->setParameterOffset(this->getParameterOffset(this->p_06));
@@ -14774,7 +14774,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             }
             
             void message_13_init() {
-                this->message_13_set_set({1});
+                this->message_13_set_set({0});
             }
             
             list liststore_02_storage_next(number index) {
@@ -15150,7 +15150,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             }
             
             void message_17_init() {
-                this->message_17_set_set({48, 55, 64, 59});
+                this->message_17_set_set({52, 59, 67, 62});
             }
             
             void numberobj_12_init() {
@@ -15390,7 +15390,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             }
             
             void message_21_init() {
-                this->message_21_set_set({0});
+                this->message_21_set_set({1});
             }
             
             void message_22_init() {
@@ -15918,27 +15918,27 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
                 Int _noteNumber;
                 Index isMuted;
                 ParameterIndex parameterOffset;
-                RNBOSubpatcher_107* p_06;
+                RNBOSubpatcher_146* p_06;
             
     };
     
-    class RNBOSubpatcher_109 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_148 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_136;
+            friend class RNBOSubpatcher_175;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_109()
+            RNBOSubpatcher_148()
             {
             }
             
-            ~RNBOSubpatcher_109()
+            ~RNBOSubpatcher_148()
             {
             }
             
-            virtual RNBOSubpatcher_136* getPatcher() const {
-                return static_cast<RNBOSubpatcher_136 *>(_parentPatcher);
+            virtual RNBOSubpatcher_175* getPatcher() const {
+                return static_cast<RNBOSubpatcher_175 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -17808,7 +17808,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             }
             
             void message_43_init() {
-                this->message_43_set_set({0});
+                this->message_43_set_set({1});
             }
             
             void message_44_init() {
@@ -18023,11 +18023,11 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_136()
+    RNBOSubpatcher_175()
     {
     }
     
-    ~RNBOSubpatcher_136()
+    ~RNBOSubpatcher_175()
     {
         delete this->p_07;
         delete this->p_08;
@@ -18147,11 +18147,11 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_07 = new RNBOSubpatcher_108();
+        this->p_07 = new RNBOSubpatcher_147();
         this->p_07->setEngineAndPatcher(this->getEngine(), this);
         this->p_07->initialize();
         this->p_07->setParameterOffset(this->getParameterOffset(this->p_07));
-        this->p_08 = new RNBOSubpatcher_109();
+        this->p_08 = new RNBOSubpatcher_148();
         this->p_08->setEngineAndPatcher(this->getEngine(), this);
         this->p_08->initialize();
         this->p_08->setParameterOffset(this->getParameterOffset(this->p_08));
@@ -19779,7 +19779,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_56_init() {
-        this->message_56_set_set({0});
+        this->message_56_set_set({1});
     }
     
     void numberobj_22_init() {
@@ -20183,7 +20183,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_57_init() {
-        this->message_57_set_set({4});
+        this->message_57_set_set({3});
     }
     
     void numberobj_23_init() {
@@ -21046,7 +21046,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_59_init() {
-        this->message_59_set_set({1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5});
+        this->message_59_set_set({2, 2, 2, 3, 3, 3, 3, 4, 4, 4});
     }
     
     void numberobj_27_init() {
@@ -21838,11 +21838,11 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_61_init() {
-        this->message_61_set_set({2});
+        this->message_61_set_set({0});
     }
     
     void message_62_init() {
-        this->message_62_set_set({0});
+        this->message_62_set_set({1});
     }
     
     void counter_02_inc() {
@@ -22283,34 +22283,34 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_108* p_07;
-        RNBOSubpatcher_109* p_08;
+        RNBOSubpatcher_147* p_07;
+        RNBOSubpatcher_148* p_08;
     
 };
 
-class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_176 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_110 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_149 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_110()
+            RNBOSubpatcher_149()
             {
             }
             
-            ~RNBOSubpatcher_110()
+            ~RNBOSubpatcher_149()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -22819,23 +22819,23 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_111 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_150 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_111()
+            RNBOSubpatcher_150()
             {
             }
             
-            ~RNBOSubpatcher_111()
+            ~RNBOSubpatcher_150()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -23318,23 +23318,23 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_112 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_151 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_112()
+            RNBOSubpatcher_151()
             {
             }
             
-            ~RNBOSubpatcher_112()
+            ~RNBOSubpatcher_151()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -28234,23 +28234,23 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_113 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_152 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_113()
+            RNBOSubpatcher_152()
             {
             }
             
-            ~RNBOSubpatcher_113()
+            ~RNBOSubpatcher_152()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -32922,23 +32922,23 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_114 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_153 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_114()
+            RNBOSubpatcher_153()
             {
             }
             
-            ~RNBOSubpatcher_114()
+            ~RNBOSubpatcher_153()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -35788,23 +35788,23 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_115 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_154 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_115()
+            RNBOSubpatcher_154()
             {
             }
             
-            ~RNBOSubpatcher_115()
+            ~RNBOSubpatcher_154()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -36308,23 +36308,23 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_116 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_155 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_116()
+            RNBOSubpatcher_155()
             {
             }
             
-            ~RNBOSubpatcher_116()
+            ~RNBOSubpatcher_155()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -39174,23 +39174,23 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_117 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_156 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_137;
+            friend class RNBOSubpatcher_176;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_117()
+            RNBOSubpatcher_156()
             {
             }
             
-            ~RNBOSubpatcher_117()
+            ~RNBOSubpatcher_156()
             {
             }
             
-            virtual RNBOSubpatcher_137* getPatcher() const {
-                return static_cast<RNBOSubpatcher_137 *>(_parentPatcher);
+            virtual RNBOSubpatcher_176* getPatcher() const {
+                return static_cast<RNBOSubpatcher_176 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -43862,11 +43862,11 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_137()
+    RNBOSubpatcher_176()
     {
     }
     
-    ~RNBOSubpatcher_137()
+    ~RNBOSubpatcher_176()
     {
         delete this->p_09;
         delete this->p_10;
@@ -44328,35 +44328,35 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_09 = new RNBOSubpatcher_110();
+        this->p_09 = new RNBOSubpatcher_149();
         this->p_09->setEngineAndPatcher(this->getEngine(), this);
         this->p_09->initialize();
         this->p_09->setParameterOffset(this->getParameterOffset(this->p_09));
-        this->p_10 = new RNBOSubpatcher_111();
+        this->p_10 = new RNBOSubpatcher_150();
         this->p_10->setEngineAndPatcher(this->getEngine(), this);
         this->p_10->initialize();
         this->p_10->setParameterOffset(this->getParameterOffset(this->p_10));
-        this->p_11 = new RNBOSubpatcher_112();
+        this->p_11 = new RNBOSubpatcher_151();
         this->p_11->setEngineAndPatcher(this->getEngine(), this);
         this->p_11->initialize();
         this->p_11->setParameterOffset(this->getParameterOffset(this->p_11));
-        this->p_12 = new RNBOSubpatcher_113();
+        this->p_12 = new RNBOSubpatcher_152();
         this->p_12->setEngineAndPatcher(this->getEngine(), this);
         this->p_12->initialize();
         this->p_12->setParameterOffset(this->getParameterOffset(this->p_12));
-        this->p_13 = new RNBOSubpatcher_114();
+        this->p_13 = new RNBOSubpatcher_153();
         this->p_13->setEngineAndPatcher(this->getEngine(), this);
         this->p_13->initialize();
         this->p_13->setParameterOffset(this->getParameterOffset(this->p_13));
-        this->p_14 = new RNBOSubpatcher_115();
+        this->p_14 = new RNBOSubpatcher_154();
         this->p_14->setEngineAndPatcher(this->getEngine(), this);
         this->p_14->initialize();
         this->p_14->setParameterOffset(this->getParameterOffset(this->p_14));
-        this->p_15 = new RNBOSubpatcher_116();
+        this->p_15 = new RNBOSubpatcher_155();
         this->p_15->setEngineAndPatcher(this->getEngine(), this);
         this->p_15->initialize();
         this->p_15->setParameterOffset(this->getParameterOffset(this->p_15));
-        this->p_16 = new RNBOSubpatcher_117();
+        this->p_16 = new RNBOSubpatcher_156();
         this->p_16->setEngineAndPatcher(this->getEngine(), this);
         this->p_16->initialize();
         this->p_16->setParameterOffset(this->getParameterOffset(this->p_16));
@@ -49595,7 +49595,7 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
     }
     
     void message_63_init() {
-        this->message_63_set_set({0});
+        this->message_63_set_set({1});
     }
     
     list liststore_06_storage_next(number index) {
@@ -50378,28 +50378,28 @@ class RNBOSubpatcher_137 : public PatcherInterfaceImpl {
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_110* p_09;
-        RNBOSubpatcher_111* p_10;
-        RNBOSubpatcher_112* p_11;
-        RNBOSubpatcher_113* p_12;
-        RNBOSubpatcher_114* p_13;
-        RNBOSubpatcher_115* p_14;
-        RNBOSubpatcher_116* p_15;
-        RNBOSubpatcher_117* p_16;
+        RNBOSubpatcher_149* p_09;
+        RNBOSubpatcher_150* p_10;
+        RNBOSubpatcher_151* p_11;
+        RNBOSubpatcher_152* p_12;
+        RNBOSubpatcher_153* p_13;
+        RNBOSubpatcher_154* p_14;
+        RNBOSubpatcher_155* p_15;
+        RNBOSubpatcher_156* p_16;
     
 };
 
-class RNBOSubpatcher_138 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_177 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    RNBOSubpatcher_138()
+    RNBOSubpatcher_177()
     {
     }
     
-    ~RNBOSubpatcher_138()
+    ~RNBOSubpatcher_177()
     {
     }
     
@@ -51443,7 +51443,7 @@ class RNBOSubpatcher_138 : public PatcherInterfaceImpl {
     }
     
     void message_68_init() {
-        this->message_68_set_set({2000});
+        this->message_68_set_set({3000});
     }
     
     void message_69_init() {
@@ -51611,36 +51611,36 @@ class RNBOSubpatcher_138 : public PatcherInterfaceImpl {
     
 };
 
-class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_178 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_127 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_166 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_139;
+            friend class RNBOSubpatcher_178;
             friend class rnbomatic;
             
             public:
             
-            class RNBOSubpatcher_118 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_157 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_127;
+                        friend class RNBOSubpatcher_166;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_118()
+                        RNBOSubpatcher_157()
                         {
                         }
                         
-                        ~RNBOSubpatcher_118()
+                        ~RNBOSubpatcher_157()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_127* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_127 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_166* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_166 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -52740,17 +52740,17 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            RNBOSubpatcher_127()
+            RNBOSubpatcher_166()
             {
             }
             
-            ~RNBOSubpatcher_127()
+            ~RNBOSubpatcher_166()
             {
                 delete this->p_17;
             }
             
-            virtual RNBOSubpatcher_139* getPatcher() const {
-                return static_cast<RNBOSubpatcher_139 *>(_parentPatcher);
+            virtual RNBOSubpatcher_178* getPatcher() const {
+                return static_cast<RNBOSubpatcher_178 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -52850,7 +52850,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             void getState(PatcherStateInterface& ) {}
             
             void setState() {
-                this->p_17 = new RNBOSubpatcher_118();
+                this->p_17 = new RNBOSubpatcher_157();
                 this->p_17->setEngineAndPatcher(this->getEngine(), this);
                 this->p_17->initialize();
                 this->p_17->setParameterOffset(this->getParameterOffset(this->p_17));
@@ -55382,7 +55382,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             }
             
             void message_75_init() {
-                this->message_75_set_set({11});
+                this->message_75_set_set({5});
             }
             
             void uzi_07_gobang(number start) {
@@ -55745,34 +55745,34 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                 Int _noteNumber;
                 Index isMuted;
                 ParameterIndex parameterOffset;
-                RNBOSubpatcher_118* p_17;
+                RNBOSubpatcher_157* p_17;
             
     };
     
-    class RNBOSubpatcher_128 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_167 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_139;
+            friend class RNBOSubpatcher_178;
             friend class rnbomatic;
             
             public:
             
-            class RNBOSubpatcher_119 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_158 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_119()
+                        RNBOSubpatcher_158()
                         {
                         }
                         
-                        ~RNBOSubpatcher_119()
+                        ~RNBOSubpatcher_158()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -57313,23 +57313,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            class RNBOSubpatcher_120 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_159 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_120()
+                        RNBOSubpatcher_159()
                         {
                         }
                         
-                        ~RNBOSubpatcher_120()
+                        ~RNBOSubpatcher_159()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -58870,23 +58870,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            class RNBOSubpatcher_121 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_160 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_121()
+                        RNBOSubpatcher_160()
                         {
                         }
                         
-                        ~RNBOSubpatcher_121()
+                        ~RNBOSubpatcher_160()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -60427,23 +60427,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            class RNBOSubpatcher_122 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_161 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_122()
+                        RNBOSubpatcher_161()
                         {
                         }
                         
-                        ~RNBOSubpatcher_122()
+                        ~RNBOSubpatcher_161()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -62013,23 +62013,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            class RNBOSubpatcher_123 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_162 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_123()
+                        RNBOSubpatcher_162()
                         {
                         }
                         
-                        ~RNBOSubpatcher_123()
+                        ~RNBOSubpatcher_162()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -63570,23 +63570,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            class RNBOSubpatcher_124 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_163 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_124()
+                        RNBOSubpatcher_163()
                         {
                         }
                         
-                        ~RNBOSubpatcher_124()
+                        ~RNBOSubpatcher_163()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -65127,23 +65127,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            class RNBOSubpatcher_125 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_164 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_125()
+                        RNBOSubpatcher_164()
                         {
                         }
                         
-                        ~RNBOSubpatcher_125()
+                        ~RNBOSubpatcher_164()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -66243,23 +66243,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            class RNBOSubpatcher_126 : public PatcherInterfaceImpl {
+            class RNBOSubpatcher_165 : public PatcherInterfaceImpl {
                         
-                        friend class RNBOSubpatcher_128;
+                        friend class RNBOSubpatcher_167;
                         friend class rnbomatic;
                         
                         public:
                         
-                        RNBOSubpatcher_126()
+                        RNBOSubpatcher_165()
                         {
                         }
                         
-                        ~RNBOSubpatcher_126()
+                        ~RNBOSubpatcher_165()
                         {
                         }
                         
-                        virtual RNBOSubpatcher_128* getPatcher() const {
-                            return static_cast<RNBOSubpatcher_128 *>(_parentPatcher);
+                        virtual RNBOSubpatcher_167* getPatcher() const {
+                            return static_cast<RNBOSubpatcher_167 *>(_parentPatcher);
                         }
                         
                         rnbomatic* getTopLevelPatcher() {
@@ -67800,11 +67800,11 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                         
             };
             
-            RNBOSubpatcher_128()
+            RNBOSubpatcher_167()
             {
             }
             
-            ~RNBOSubpatcher_128()
+            ~RNBOSubpatcher_167()
             {
                 delete this->p_18;
                 delete this->p_19;
@@ -67816,8 +67816,8 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                 delete this->p_25;
             }
             
-            virtual RNBOSubpatcher_139* getPatcher() const {
-                return static_cast<RNBOSubpatcher_139 *>(_parentPatcher);
+            virtual RNBOSubpatcher_178* getPatcher() const {
+                return static_cast<RNBOSubpatcher_178 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -67929,35 +67929,35 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             void getState(PatcherStateInterface& ) {}
             
             void setState() {
-                this->p_18 = new RNBOSubpatcher_119();
+                this->p_18 = new RNBOSubpatcher_158();
                 this->p_18->setEngineAndPatcher(this->getEngine(), this);
                 this->p_18->initialize();
                 this->p_18->setParameterOffset(this->getParameterOffset(this->p_18));
-                this->p_19 = new RNBOSubpatcher_120();
+                this->p_19 = new RNBOSubpatcher_159();
                 this->p_19->setEngineAndPatcher(this->getEngine(), this);
                 this->p_19->initialize();
                 this->p_19->setParameterOffset(this->getParameterOffset(this->p_19));
-                this->p_20 = new RNBOSubpatcher_121();
+                this->p_20 = new RNBOSubpatcher_160();
                 this->p_20->setEngineAndPatcher(this->getEngine(), this);
                 this->p_20->initialize();
                 this->p_20->setParameterOffset(this->getParameterOffset(this->p_20));
-                this->p_21 = new RNBOSubpatcher_122();
+                this->p_21 = new RNBOSubpatcher_161();
                 this->p_21->setEngineAndPatcher(this->getEngine(), this);
                 this->p_21->initialize();
                 this->p_21->setParameterOffset(this->getParameterOffset(this->p_21));
-                this->p_22 = new RNBOSubpatcher_123();
+                this->p_22 = new RNBOSubpatcher_162();
                 this->p_22->setEngineAndPatcher(this->getEngine(), this);
                 this->p_22->initialize();
                 this->p_22->setParameterOffset(this->getParameterOffset(this->p_22));
-                this->p_23 = new RNBOSubpatcher_124();
+                this->p_23 = new RNBOSubpatcher_163();
                 this->p_23->setEngineAndPatcher(this->getEngine(), this);
                 this->p_23->initialize();
                 this->p_23->setParameterOffset(this->getParameterOffset(this->p_23));
-                this->p_24 = new RNBOSubpatcher_125();
+                this->p_24 = new RNBOSubpatcher_164();
                 this->p_24->setEngineAndPatcher(this->getEngine(), this);
                 this->p_24->initialize();
                 this->p_24->setParameterOffset(this->getParameterOffset(this->p_24));
-                this->p_25 = new RNBOSubpatcher_126();
+                this->p_25 = new RNBOSubpatcher_165();
                 this->p_25->setEngineAndPatcher(this->getEngine(), this);
                 this->p_25->initialize();
                 this->p_25->setParameterOffset(this->getParameterOffset(this->p_25));
@@ -70419,34 +70419,34 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
                 Int _noteNumber;
                 Index isMuted;
                 ParameterIndex parameterOffset;
-                RNBOSubpatcher_119* p_18;
-                RNBOSubpatcher_120* p_19;
-                RNBOSubpatcher_121* p_20;
-                RNBOSubpatcher_122* p_21;
-                RNBOSubpatcher_123* p_22;
-                RNBOSubpatcher_124* p_23;
-                RNBOSubpatcher_125* p_24;
-                RNBOSubpatcher_126* p_25;
+                RNBOSubpatcher_158* p_18;
+                RNBOSubpatcher_159* p_19;
+                RNBOSubpatcher_160* p_20;
+                RNBOSubpatcher_161* p_21;
+                RNBOSubpatcher_162* p_22;
+                RNBOSubpatcher_163* p_23;
+                RNBOSubpatcher_164* p_24;
+                RNBOSubpatcher_165* p_25;
             
     };
     
-    class RNBOSubpatcher_129 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_168 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_139;
+            friend class RNBOSubpatcher_178;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_129()
+            RNBOSubpatcher_168()
             {
             }
             
-            ~RNBOSubpatcher_129()
+            ~RNBOSubpatcher_168()
             {
             }
             
-            virtual RNBOSubpatcher_139* getPatcher() const {
-                return static_cast<RNBOSubpatcher_139 *>(_parentPatcher);
+            virtual RNBOSubpatcher_178* getPatcher() const {
+                return static_cast<RNBOSubpatcher_178 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -72426,7 +72426,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             }
             
             void message_240_init() {
-                this->message_240_set_set({750});
+                this->message_240_set_set({1500});
             }
             
             void message_241_init() {
@@ -72782,23 +72782,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_130 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_169 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_139;
+            friend class RNBOSubpatcher_178;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_130()
+            RNBOSubpatcher_169()
             {
             }
             
-            ~RNBOSubpatcher_130()
+            ~RNBOSubpatcher_169()
             {
             }
             
-            virtual RNBOSubpatcher_139* getPatcher() const {
-                return static_cast<RNBOSubpatcher_139 *>(_parentPatcher);
+            virtual RNBOSubpatcher_178* getPatcher() const {
+                return static_cast<RNBOSubpatcher_178 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -74158,23 +74158,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_131 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_170 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_139;
+            friend class RNBOSubpatcher_178;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_131()
+            RNBOSubpatcher_170()
             {
             }
             
-            ~RNBOSubpatcher_131()
+            ~RNBOSubpatcher_170()
             {
             }
             
-            virtual RNBOSubpatcher_139* getPatcher() const {
-                return static_cast<RNBOSubpatcher_139 *>(_parentPatcher);
+            virtual RNBOSubpatcher_178* getPatcher() const {
+                return static_cast<RNBOSubpatcher_178 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -75866,11 +75866,11 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_139()
+    RNBOSubpatcher_178()
     {
     }
     
-    ~RNBOSubpatcher_139()
+    ~RNBOSubpatcher_178()
     {
         delete this->p_26;
         delete this->p_27;
@@ -76053,23 +76053,23 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_26 = new RNBOSubpatcher_127();
+        this->p_26 = new RNBOSubpatcher_166();
         this->p_26->setEngineAndPatcher(this->getEngine(), this);
         this->p_26->initialize();
         this->p_26->setParameterOffset(this->getParameterOffset(this->p_26));
-        this->p_27 = new RNBOSubpatcher_128();
+        this->p_27 = new RNBOSubpatcher_167();
         this->p_27->setEngineAndPatcher(this->getEngine(), this);
         this->p_27->initialize();
         this->p_27->setParameterOffset(this->getParameterOffset(this->p_27));
-        this->p_28 = new RNBOSubpatcher_129();
+        this->p_28 = new RNBOSubpatcher_168();
         this->p_28->setEngineAndPatcher(this->getEngine(), this);
         this->p_28->initialize();
         this->p_28->setParameterOffset(this->getParameterOffset(this->p_28));
-        this->p_29 = new RNBOSubpatcher_130();
+        this->p_29 = new RNBOSubpatcher_169();
         this->p_29->setEngineAndPatcher(this->getEngine(), this);
         this->p_29->initialize();
         this->p_29->setParameterOffset(this->getParameterOffset(this->p_29));
-        this->p_30 = new RNBOSubpatcher_131();
+        this->p_30 = new RNBOSubpatcher_170();
         this->p_30->setEngineAndPatcher(this->getEngine(), this);
         this->p_30->initialize();
         this->p_30->setParameterOffset(this->getParameterOffset(this->p_30));
@@ -79212,7 +79212,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_282_init() {
-        this->message_282_set_set({11});
+        this->message_282_set_set({5});
     }
     
     void numberobj_69_init() {
@@ -79705,11 +79705,11 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_284_init() {
-        this->message_284_set_set({11});
+        this->message_284_set_set({5});
     }
     
     void message_285_init() {
-        this->message_285_set_set({8});
+        this->message_285_set_set({4});
     }
     
     void message_286_init() {
@@ -79791,7 +79791,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_288_init() {
-        this->message_288_set_set({0});
+        this->message_288_set_set({1});
     }
     
     void counter_04_inc() {
@@ -79842,7 +79842,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_289_init() {
-        this->message_289_set_set({8, 9, 9, 9, 9, 11, 12, 12, 13, 13});
+        this->message_289_set_set({1, 2, 4, 4, 4, 5, 6, 8, 9});
     }
     
     void message_290_init() {
@@ -79893,7 +79893,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_295_init() {
-        this->message_295_set_set({750});
+        this->message_295_set_set({1500});
     }
     
     void message_296_init() {
@@ -80290,37 +80290,37 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_127* p_26;
-        RNBOSubpatcher_128* p_27;
-        RNBOSubpatcher_129* p_28;
-        RNBOSubpatcher_130* p_29;
-        RNBOSubpatcher_131* p_30;
+        RNBOSubpatcher_166* p_26;
+        RNBOSubpatcher_167* p_27;
+        RNBOSubpatcher_168* p_28;
+        RNBOSubpatcher_169* p_29;
+        RNBOSubpatcher_170* p_30;
     
 };
 
-class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
+class RNBOSubpatcher_179 : public PatcherInterfaceImpl {
     
     friend class rnbomatic;
     
     public:
     
-    class RNBOSubpatcher_132 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_171 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_140;
+            friend class RNBOSubpatcher_179;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_132()
+            RNBOSubpatcher_171()
             {
             }
             
-            ~RNBOSubpatcher_132()
+            ~RNBOSubpatcher_171()
             {
             }
             
-            virtual RNBOSubpatcher_140* getPatcher() const {
-                return static_cast<RNBOSubpatcher_140 *>(_parentPatcher);
+            virtual RNBOSubpatcher_179* getPatcher() const {
+                return static_cast<RNBOSubpatcher_179 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -81335,23 +81335,23 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
             
     };
     
-    class RNBOSubpatcher_133 : public PatcherInterfaceImpl {
+    class RNBOSubpatcher_172 : public PatcherInterfaceImpl {
             
-            friend class RNBOSubpatcher_140;
+            friend class RNBOSubpatcher_179;
             friend class rnbomatic;
             
             public:
             
-            RNBOSubpatcher_133()
+            RNBOSubpatcher_172()
             {
             }
             
-            ~RNBOSubpatcher_133()
+            ~RNBOSubpatcher_172()
             {
             }
             
-            virtual RNBOSubpatcher_140* getPatcher() const {
-                return static_cast<RNBOSubpatcher_140 *>(_parentPatcher);
+            virtual RNBOSubpatcher_179* getPatcher() const {
+                return static_cast<RNBOSubpatcher_179 *>(_parentPatcher);
             }
             
             rnbomatic* getTopLevelPatcher() {
@@ -81918,11 +81918,11 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
             
     };
     
-    RNBOSubpatcher_140()
+    RNBOSubpatcher_179()
     {
     }
     
-    ~RNBOSubpatcher_140()
+    ~RNBOSubpatcher_179()
     {
         delete this->p_31;
         delete this->p_32;
@@ -82077,11 +82077,11 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
     void getState(PatcherStateInterface& ) {}
     
     void setState() {
-        this->p_31 = new RNBOSubpatcher_132();
+        this->p_31 = new RNBOSubpatcher_171();
         this->p_31->setEngineAndPatcher(this->getEngine(), this);
         this->p_31->initialize();
         this->p_31->setParameterOffset(this->getParameterOffset(this->p_31));
-        this->p_32 = new RNBOSubpatcher_133();
+        this->p_32 = new RNBOSubpatcher_172();
         this->p_32->setEngineAndPatcher(this->getEngine(), this);
         this->p_32->initialize();
         this->p_32->setParameterOffset(this->getParameterOffset(this->p_32));
@@ -84489,7 +84489,7 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
     }
     
     void message_305_init() {
-        this->message_305_set_set({2, 50, 0, 4320});
+        this->message_305_set_set({0.1, 50, 0, 1800});
     }
     
     void message_306_init() {
@@ -84857,7 +84857,7 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
     }
     
     void message_310_init() {
-        this->message_310_set_set({0.05, 50, 0, 4320});
+        this->message_310_set_set({1, 50, 0, 1800});
     }
     
     bool stackprotect_check() {
@@ -85151,8 +85151,8 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
         Int _noteNumber;
         Index isMuted;
         ParameterIndex parameterOffset;
-        RNBOSubpatcher_132* p_31;
-        RNBOSubpatcher_133* p_32;
+        RNBOSubpatcher_171* p_31;
+        RNBOSubpatcher_172* p_32;
     
 };
 
@@ -85566,31 +85566,31 @@ Index getPatcherSerial() const {
 void getState(PatcherStateInterface& ) {}
 
 void setState() {
-    this->p_33 = new RNBOSubpatcher_134();
+    this->p_33 = new RNBOSubpatcher_173();
     this->p_33->setEngineAndPatcher(this->getEngine(), this);
     this->p_33->initialize();
     this->p_33->setParameterOffset(this->getParameterOffset(this->p_33));
-    this->p_34 = new RNBOSubpatcher_135();
+    this->p_34 = new RNBOSubpatcher_174();
     this->p_34->setEngineAndPatcher(this->getEngine(), this);
     this->p_34->initialize();
     this->p_34->setParameterOffset(this->getParameterOffset(this->p_34));
-    this->p_35 = new RNBOSubpatcher_136();
+    this->p_35 = new RNBOSubpatcher_175();
     this->p_35->setEngineAndPatcher(this->getEngine(), this);
     this->p_35->initialize();
     this->p_35->setParameterOffset(this->getParameterOffset(this->p_35));
-    this->p_36 = new RNBOSubpatcher_137();
+    this->p_36 = new RNBOSubpatcher_176();
     this->p_36->setEngineAndPatcher(this->getEngine(), this);
     this->p_36->initialize();
     this->p_36->setParameterOffset(this->getParameterOffset(this->p_36));
-    this->p_37 = new RNBOSubpatcher_138();
+    this->p_37 = new RNBOSubpatcher_177();
     this->p_37->setEngineAndPatcher(this->getEngine(), this);
     this->p_37->initialize();
     this->p_37->setParameterOffset(this->getParameterOffset(this->p_37));
-    this->p_38 = new RNBOSubpatcher_139();
+    this->p_38 = new RNBOSubpatcher_178();
     this->p_38->setEngineAndPatcher(this->getEngine(), this);
     this->p_38->initialize();
     this->p_38->setParameterOffset(this->getParameterOffset(this->p_38));
-    this->p_39 = new RNBOSubpatcher_140();
+    this->p_39 = new RNBOSubpatcher_179();
     this->p_39->setEngineAndPatcher(this->getEngine(), this);
     this->p_39->initialize();
     this->p_39->setParameterOffset(this->getParameterOffset(this->p_39));
@@ -88669,7 +88669,7 @@ number random_07_nz_next() {
 }
 
 void message_312_init() {
-    this->message_312_set_set({2000});
+    this->message_312_set_set({3000});
 }
 
 void toggle_06_getPresetValue(PatcherStateInterface& preset) {
@@ -89455,13 +89455,13 @@ void assign_defaults()
     Index isMuted;
     indexlist paramInitIndices;
     indexlist paramInitOrder;
-    RNBOSubpatcher_134* p_33;
-    RNBOSubpatcher_135* p_34;
-    RNBOSubpatcher_136* p_35;
-    RNBOSubpatcher_137* p_36;
-    RNBOSubpatcher_138* p_37;
-    RNBOSubpatcher_139* p_38;
-    RNBOSubpatcher_140* p_39;
+    RNBOSubpatcher_173* p_33;
+    RNBOSubpatcher_174* p_34;
+    RNBOSubpatcher_175* p_35;
+    RNBOSubpatcher_176* p_36;
+    RNBOSubpatcher_177* p_37;
+    RNBOSubpatcher_178* p_38;
+    RNBOSubpatcher_179* p_39;
 
 };
 

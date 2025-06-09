@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\CMakeFiles\681e72f8c51da027408b6d0b7a93a96a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{03BAF229-5CCB-3F97-ABC4-303F2D23BA77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

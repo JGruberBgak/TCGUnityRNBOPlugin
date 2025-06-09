@@ -1,4 +1,0 @@
-C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/CMakeFiles/RNBOUnityPlugin.dir
-C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/CMakeFiles/INSTALL.dir
-C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin
+# Install script for directory: C:/Users/Jack/Documents/TCGUnityRNBOPlugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/JamMusic")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusic")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,6 +55,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,6 +1,6 @@
-^C:\USERS\JACK\DOCUMENTS\TCGXCOREBLAZERGAMEJAM\ASSETS\ASSETS\AUDIO\UNITYRNBOPLUGIN\BUILD\CMAKEFILES\7EB99696CD1CA01B2082B8D14A6F26E1\GENERATE.STAMP.RULE
+^C:\USERS\JACK\DOCUMENTS\TCGUNITYRNBOPLUGIN\BUILD\CMAKEFILES\681E72F8C51DA027408B6D0B7A93A96A\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin -BC:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/RNBO_UNITY_NATIVE_AUDIO_PLUGIN.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jack/Documents/TCGUnityRNBOPlugin -BC:/Users/Jack/Documents/TCGUnityRNBOPlugin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/RNBO_UNITY_NATIVE_AUDIO_PLUGIN.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

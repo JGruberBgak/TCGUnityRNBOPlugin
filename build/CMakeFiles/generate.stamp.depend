@@ -87,14 +87,14 @@ C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/CMakeLists.txt
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/build/CMakeFiles/4.0.2/CMakeSystem.cmake
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/export/rnbo/cmake/CCache.cmake
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/export/rnbo/cmake/RNBODescriptionHeader.cmake
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/export/rnbo/cmake/rnbo_description.h.in
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/src/Helper.cs.asmdef.in
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/src/Helper.cs.in
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/src/package.json.in
-C:/Users/Jack/Documents/TCGxCoreblazerGameJam/Assets/Assets/Audio/UnityRNBOPlugin/src/plugin.meta.in
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/CMakeLists.txt
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/CMakeFiles/4.0.2/CMakeSystem.cmake
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/export/rnbo/cmake/CCache.cmake
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/export/rnbo/cmake/RNBODescriptionHeader.cmake
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/export/rnbo/cmake/rnbo_description.h.in
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/src/Helper.cs.asmdef.in
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/src/Helper.cs.in
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/src/package.json.in
+C:/Users/Jack/Documents/TCGUnityRNBOPlugin/src/plugin.meta.in

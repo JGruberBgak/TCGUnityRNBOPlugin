@@ -206,7 +206,7 @@ PLUGIN_MANUFACTURER_NAME:STRING=Cycling '74
 PLUGIN_MANUFACTURER_TLD:STRING=com
 
 //The name of the audio plugin
-PLUGIN_NAME:STRING=JamMusicWindows
+PLUGIN_NAME:STRING=JamMusic
 
 //Plugin version string
 PLUGIN_VERSION:STRING=0.0.1

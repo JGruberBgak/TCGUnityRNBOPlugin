@@ -9173,7 +9173,7 @@ class RNBOSubpatcher_135 : public PatcherInterfaceImpl {
     }
     
     void message_09_init() {
-        this->message_09_set_set({0.25, 100, 0, 3000});
+        this->message_09_set_set({0.25, 100, 0, 2000});
     }
     
     void data_01_init() {
@@ -11026,7 +11026,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
                         }
                         
                         void message_12_init() {
-                            this->message_12_set_set({48, 55, 64, 69});
+                            this->message_12_set_set({48, 55, 64, 59});
                         }
                         
                         void numberobj_06_init() {
@@ -15150,7 +15150,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             }
             
             void message_17_init() {
-                this->message_17_set_set({57, 64, 72, 67});
+                this->message_17_set_set({48, 55, 64, 59});
             }
             
             void numberobj_12_init() {
@@ -15390,7 +15390,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             }
             
             void message_21_init() {
-                this->message_21_set_set({2});
+                this->message_21_set_set({0});
             }
             
             void message_22_init() {
@@ -17808,7 +17808,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
             }
             
             void message_43_init() {
-                this->message_43_set_set({2});
+                this->message_43_set_set({0});
             }
             
             void message_44_init() {
@@ -19779,7 +19779,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_56_init() {
-        this->message_56_set_set({2});
+        this->message_56_set_set({0});
     }
     
     void numberobj_22_init() {
@@ -20183,7 +20183,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_57_init() {
-        this->message_57_set_set({5});
+        this->message_57_set_set({4});
     }
     
     void numberobj_23_init() {
@@ -21042,11 +21042,11 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_58_init() {
-        this->message_58_set_set({130.812783});
+        this->message_58_set_set({82.406889});
     }
     
     void message_59_init() {
-        this->message_59_set_set({3, 3, 3, 4, 4, 4, 4, 4, 5, 5});
+        this->message_59_set_set({1, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5});
     }
     
     void numberobj_27_init() {
@@ -21066,7 +21066,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_60_init() {
-        this->message_60_set_set({48});
+        this->message_60_set_set({40});
     }
     
     number mtof_04_innerMtoF_next(number midivalue, number tuning) {
@@ -21842,7 +21842,7 @@ class RNBOSubpatcher_136 : public PatcherInterfaceImpl {
     }
     
     void message_62_init() {
-        this->message_62_set_set({2});
+        this->message_62_set_set({0});
     }
     
     void counter_02_inc() {
@@ -51443,7 +51443,7 @@ class RNBOSubpatcher_138 : public PatcherInterfaceImpl {
     }
     
     void message_68_init() {
-        this->message_68_set_set({3000});
+        this->message_68_set_set({2000});
     }
     
     void message_69_init() {
@@ -55382,7 +55382,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             }
             
             void message_75_init() {
-                this->message_75_set_set({4});
+                this->message_75_set_set({11});
             }
             
             void uzi_07_gobang(number start) {
@@ -72426,7 +72426,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
             }
             
             void message_240_init() {
-                this->message_240_set_set({3000});
+                this->message_240_set_set({750});
             }
             
             void message_241_init() {
@@ -79212,7 +79212,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_282_init() {
-        this->message_282_set_set({4});
+        this->message_282_set_set({11});
     }
     
     void numberobj_69_init() {
@@ -79705,11 +79705,11 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_284_init() {
-        this->message_284_set_set({4});
+        this->message_284_set_set({11});
     }
     
     void message_285_init() {
-        this->message_285_set_set({6});
+        this->message_285_set_set({8});
     }
     
     void message_286_init() {
@@ -79791,7 +79791,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_288_init() {
-        this->message_288_set_set({2});
+        this->message_288_set_set({0});
     }
     
     void counter_04_inc() {
@@ -79842,7 +79842,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_289_init() {
-        this->message_289_set_set({1, 2, 2, 2, 2, 4, 5, 6, 6, 6, 8, 9});
+        this->message_289_set_set({8, 9, 9, 9, 9, 11, 12, 12, 13, 13});
     }
     
     void message_290_init() {
@@ -79893,7 +79893,7 @@ class RNBOSubpatcher_139 : public PatcherInterfaceImpl {
     }
     
     void message_295_init() {
-        this->message_295_set_set({3000});
+        this->message_295_set_set({750});
     }
     
     void message_296_init() {
@@ -84489,7 +84489,7 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
     }
     
     void message_305_init() {
-        this->message_305_set_set({0.1, 50, 0, 3600});
+        this->message_305_set_set({2, 50, 0, 4320});
     }
     
     void message_306_init() {
@@ -84857,7 +84857,7 @@ class RNBOSubpatcher_140 : public PatcherInterfaceImpl {
     }
     
     void message_310_init() {
-        this->message_310_set_set({1, 50, 0, 3600});
+        this->message_310_set_set({0.05, 50, 0, 4320});
     }
     
     bool stackprotect_check() {
@@ -88669,7 +88669,7 @@ number random_07_nz_next() {
 }
 
 void message_312_init() {
-    this->message_312_set_set({3000});
+    this->message_312_set_set({2000});
 }
 
 void toggle_06_getPresetValue(PatcherStateInterface& preset) {

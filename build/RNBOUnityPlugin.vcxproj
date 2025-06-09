@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusicWindows\Assets\Plugins\Windows\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusic\Assets\Plugins\Windows\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RNBOUnityPlugin.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">JamMusicWindows</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">JamMusic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusicWindows\Assets\Plugins\Windows\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusic\Assets\Plugins\Windows\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RNBOUnityPlugin.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">JamMusicWindows</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">JamMusic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusicWindows\Assets\Plugins\Windows\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusic\Assets\Plugins\Windows\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RNBOUnityPlugin.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">JamMusicWindows</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">JamMusic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusicWindows\Assets\Plugins\Windows\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\JamMusic\Assets\Plugins\Windows\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RNBOUnityPlugin.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">JamMusicWindows</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">JamMusic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
@@ -100,12 +100,12 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PLUGIN_NAME="JamMusicWindows";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="Debug";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PLUGIN_NAME="JamMusic";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="Debug";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PLUGIN_NAME=\"JamMusicWindows\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"Debug\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PLUGIN_NAME=\"JamMusic\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"Debug\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Users\Jack\Documents\TCGUnityRNBOPlugin\src;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\common;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\adapters\unity\native_audio_plugin;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\include;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\src\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -122,8 +122,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/Debug/JamMusicWindows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusicWindows/Assets/Plugins/Windows/JamMusicWindows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/Debug/JamMusic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusic/Assets/Plugins/Windows/JamMusic.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -145,14 +145,14 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME="JamMusicWindows";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="Release";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME="JamMusic";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="Release";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME=\"JamMusicWindows\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"Release\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME=\"JamMusic\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"Release\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Users\Jack\Documents\TCGUnityRNBOPlugin\src;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\common;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\adapters\unity\native_audio_plugin;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\include;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\src\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -169,8 +169,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/Release/JamMusicWindows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusicWindows/Assets/Plugins/Windows/JamMusicWindows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/Release/JamMusic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusic/Assets/Plugins/Windows/JamMusic.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -192,14 +192,14 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME="JamMusicWindows";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="MinSizeRel";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME="JamMusic";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="MinSizeRel";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME=\"JamMusicWindows\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"MinSizeRel\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME=\"JamMusic\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"MinSizeRel\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Users\Jack\Documents\TCGUnityRNBOPlugin\src;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\common;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\adapters\unity\native_audio_plugin;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\include;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\src\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -216,8 +216,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/MinSizeRel/JamMusicWindows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusicWindows/Assets/Plugins/Windows/MinSizeRel/JamMusicWindows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/MinSizeRel/JamMusic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusic/Assets/Plugins/Windows/MinSizeRel/JamMusic.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -240,12 +240,12 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME="JamMusicWindows";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="RelWithDebInfo";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME="JamMusic";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR="RelWithDebInfo";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME=\"JamMusicWindows\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"RelWithDebInfo\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLUGIN_NAME=\"JamMusic\";RNBO_UNITY_INSTANCE_ACCESS_HACK=1;PLUGIN_IS_SPATIALIZER=0;RNBO_DESCRIPTION_AS_STRING=1;RNBO_INCLUDE_DESCRIPTION_FILE;CMAKE_INTDIR=\"RelWithDebInfo\";RNBOUnityPlugin_EXPORTS</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>C:\Users\Jack\Documents\TCGUnityRNBOPlugin\src;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\common;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\adapters\unity\native_audio_plugin;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\build\include;C:\Users\Jack\Documents\TCGUnityRNBOPlugin\export\rnbo\src\3rdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -262,8 +262,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/RelWithDebInfo/JamMusicWindows.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusicWindows/Assets/Plugins/Windows/RelWithDebInfo/JamMusicWindows.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/RelWithDebInfo/JamMusic.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Jack/Documents/TCGUnityRNBOPlugin/build/JamMusic/Assets/Plugins/Windows/RelWithDebInfo/JamMusic.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
